@@ -1,0 +1,89 @@
+body {
+    background-color: #A9CCE3;
+    color: white;
+}
+
+#indexm {
+    text-align: center
+}
+
+header, h1, nav, footer {
+    text-align: center;
+}
+header{
+    text-shadow: 2px 2px #333300;
+}
+
+#myh1{
+    text-align: center;
+}
+
+nav a { /*links within "nav" container*/
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 2em;
+    text-decoration: none; /*removes underline*/
+    color: white;
+}
+
+nav a:hover { /*pseudo class*/
+    border-bottom: 2px blue;
+    font-size: 2.5em;
+    transition: .9s; /*transition effect*/
+}
+#languages{
+    float: left;
+}
+
+footer {
+    font-size: .7em;
+    color: white;
+    clear: left;
+}
+
+
+
+ul {
+    text-align: left;
+    padding-left: 200px;
+}
+
+.javaFact {
+    color: #2874A6;
+}
+.cppFact{
+    color: #2874A6;
+}
+.pythonFact{
+    color: #2874A6;
+}
+#list1{
+    text-align: left;
+    border-style: double;
+    width: 40%;
+    margin-left: 36%;
+    word-spacing: 3px;
+}
+#javapic{
+    float: left;
+}
+#cpppic{
+    float: left;
+}
+#list2{
+    text-align: left;
+    border-style: double;
+    width: 46%;
+    margin-left: 20%;
+    word-spacing: 3px;
+}
+#pythonpic{
+    float: left;
+}
+#list3{
+    text-align: left;
+    border-style: double;
+    width: 50%;
+    margin-left: 20%;
+    word-spacing: 3px;
+}
